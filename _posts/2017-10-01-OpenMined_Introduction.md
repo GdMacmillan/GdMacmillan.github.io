@@ -17,19 +17,19 @@ Homomorphic Encryption works by encrypting values. The encryption algorithm does
 ![Homomorphic encryption]({{ site.url }}/assets/posts/2017-10-01/homomorphic-encryption.png)
 
 Some Homomorphic encryption libraries include:
-* C++
-    * http://sealcrypto.codeplex.com/
-    * https://github.com/shaih/HElib
-    * https://github.com/tlepoint/homomorphic-simon
-* Python -
-    * https://github.com/n1analytics/python-paillier
-* R -
-    * http://www.louisaslett.com/HomomorphicEncryption/
+- C++
+    - http://sealcrypto.codeplex.com/
+    - https://github.com/shaih/HElib
+    - https://github.com/tlepoint/homomorphic-simon
+- Python -
+    - https://github.com/n1analytics/python-paillier
+- R -
+    - http://www.louisaslett.com/HomomorphicEncryption/
 
 A smart contract is a dataset stored on a blockchain. This Contains 3 things. Data (ledgers, events, statistics), state (today's data, today's events), code (rules for changing state). Code establishes rules for updating the state. Some properties of a smart contract are as follows:
 
-* state and codes around an agreement are constrained
-* enforcment of this state is included in the contract
+- state and codes around an agreement are constrained
+- enforcment of this state is included in the contract
 
 A Blockchain is large distributed dataset. This can be imagined as many machines that all have exact copies of the dataset. No one person or actor can edit or delete an entry. They may only add to the blockchain. Each person's contribution to the dataset are recorded. See this great demonstration for more on what blockchain is all about:
 
@@ -59,7 +59,7 @@ Some problems with this are, AI Inc can use the encrypted model to basically ste
 Smart contracts can solve this problem. Data scientist's as AI Inc. can send some specification of model plus a bit of money to a smart contract. Joe see's which model's require training, chooses which one he would like to traina and authorizes the contract. Joe trains the model on his data and sends gradients back up to the cloud. There are some other issues to keep in mind but OpenMined has proposed an initial solution for this in Version 1. You can check out the project here: https://github.com/OpenMined
 
 
-Credits:
+Credit for this post is provided to creators of OpenMined and the following intro video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sXFmKquiVnk" frameborder="0" allowfullscreen></iframe>
 
 
