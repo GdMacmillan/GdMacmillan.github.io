@@ -26,7 +26,7 @@ baseurl: https://gdmacmillan.github.io
 # Includes
 addthisId: ""
 disqusUsername: ""
-googleAnalyticsId: ""
+googleAnalyticsId: "UA-107414177-1"
 
 # Search engine verifications
 bing: ""

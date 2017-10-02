@@ -22,20 +22,24 @@ Homomorphic Encryption works by encrypting values. The encryption algorithm does
 Some Homomorphic encryption libraries include:
 
 - C++
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [sealcrypto](http://sealcrypto.codeplex.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [HElib](https://github.com/shaih/HElib)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [homomorphic-simon](https://github.com/tlepoint/homomorphic-simon)
+    - [sealcrypto](http://sealcrypto.codeplex.com/)
+    - [HElib](https://github.com/shaih/HElib)
+    - [homomorphic-simon](https://github.com/tlepoint/homomorphic-simon)
 
 - Python -
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [python-paillier](https://github.com/n1analytics/python-paillier)
+    - [python-paillier](https://github.com/n1analytics/python-paillier)
 
 - R -
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [HomomorphicEncryption](http://www.louisaslett.com/HomomorphicEncryption/)
+    - [HomomorphicEncryption](http://www.louisaslett.com/HomomorphicEncryption/)
 
 A smart contract is a dataset stored on a blockchain. This Contains 3 things. Data (ledgers, events, statistics), state (today's data, today's events), code (rules for changing state). Code establishes rules for updating the state. Some properties of a smart contract are as follows:
 
 - state and codes around an agreement are constrained
 - enforcment of this state is included in the contract
+
+More about smart contracts can be found here:
+[Smart Contracts: The Blockchain Technology That Will Replace Lawyers
+](https://blockgeeks.com/guides/smart-contracts/)
 
 A Blockchain is large distributed dataset. This can be imagined as many machines that all have exact copies of the dataset. No one person or actor can edit or delete an entry. They may only add to the blockchain. Each person's contribution to the dataset are recorded. See this great demonstration for more on what blockchain is all about:
 
