@@ -33,6 +33,7 @@ layout: htmlCompressor
 	<meta itemprop="description" content="{% if page.title %}{{ page.content | strip_html | slice: 0, 150 }}{% elsif site.description %}{{ site.description }}{% endif %}">
 
 	<!-- Open Graph(Facebook, Pinterest) -->
+	<meta property="og:image" content="{{ site.baseurl }}/assets/img/Artificial-Intelligence.jpg">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
