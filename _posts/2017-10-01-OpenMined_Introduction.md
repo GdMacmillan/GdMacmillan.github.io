@@ -8,7 +8,7 @@ OpenMined is an open-sourced project for distributing machine learning model tra
 
 There are three necessary ingredients for AI/ML: 1. data 2. compute power 3. talent.
 
-Most of the research in is already publicly available. Open-sourced libraries, research papers and online learning make learning and teaching ML/AI accessible to most people. Compute power is increasing at an exponential rate (as long as Moore's law is still in effect). But less available and properly in need of solutions is acces to data stores. Here-in lies the problem.
+Most of the research in is already publicly available. Open-sourced libraries, research papers and online learning make learning and teaching ML/AI accessible to most people. Compute power is increasing at an exponential rate (as long as Moore's law is still in effect). But less available and properly in need of solutions is access to data stores. Here-in lies the problem.
 
 Projects like OpenMind are paving the way to democratized access to data resources and allowing independent companies to keep control of their data while getting payed for it. Due to blockchain technology, smart contracts and Homomorphic encryption, a promising technology is available to distribute access to data, and allow model parameters or gradients be learned from batch training. Let's learn how it works.
 
@@ -19,15 +19,15 @@ Homomorphic Encryption works by encrypting values. The encryption algorithm does
 Some Homomorphic encryption libraries include:
 
 - C++
-    - [sealcrypto](http://sealcrypto.codeplex.com/)
-    - [HElib](https://github.com/shaih/HElib)
-    - [homomorphic-simon](https://github.com/tlepoint/homomorphic-simon)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [sealcrypto](http://sealcrypto.codeplex.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [HElib](https://github.com/shaih/HElib)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [homomorphic-simon](https://github.com/tlepoint/homomorphic-simon)
 
 - Python -
-    - [python-paillier](https://github.com/n1analytics/python-paillier)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [python-paillier](https://github.com/n1analytics/python-paillier)
 
 - R -
-    - [HomomorphicEncryption](http://www.louisaslett.com/HomomorphicEncryption/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [HomomorphicEncryption](http://www.louisaslett.com/HomomorphicEncryption/)
 
 A smart contract is a dataset stored on a blockchain. This Contains 3 things. Data (ledgers, events, statistics), state (today's data, today's events), code (rules for changing state). Code establishes rules for updating the state. Some properties of a smart contract are as follows:
 
@@ -36,7 +36,7 @@ A smart contract is a dataset stored on a blockchain. This Contains 3 things. Da
 
 A Blockchain is large distributed dataset. This can be imagined as many machines that all have exact copies of the dataset. No one person or actor can edit or delete an entry. They may only add to the blockchain. Each person's contribution to the dataset are recorded. See this great demonstration for more on what blockchain is all about:
 
-https://anders.com/blockchain/hash.html
+- [Anders blockchain demo](https://anders.com/blockchain/hash.html)
 
 Under the proof of work scheme, it is extremely difficult and time consuming to for someone to interject data into older blocks.
 
