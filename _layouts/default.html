@@ -5,6 +5,16 @@ layout: htmlCompressor
 <!DOCTYPE html>
 <html lang="{{ site.lang }}" itemscope itemtype="http://schema.org/WebPage">
 <head>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107414177-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments)};
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-107414177-1');
+	</script>
+
 
 	<!-- SEO -->
 	<title>{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
