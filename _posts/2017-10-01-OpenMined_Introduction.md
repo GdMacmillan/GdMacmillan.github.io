@@ -60,7 +60,8 @@ Smart contracts can solve this problem. Data scientist's as AI Inc. can send som
 
 
 Credits:
-https://www.youtube.com/watch?v=sXFmKquiVnk
+{% include youtubePlayer.html id=sXFmKquiVnk %}
+<!-- https://www.youtube.com/watch?v=sXFmKquiVnk -->
 
 
 This is an ongoing interest of mine so check back when more content is completed!
