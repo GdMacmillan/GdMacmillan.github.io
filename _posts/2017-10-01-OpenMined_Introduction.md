@@ -1,7 +1,7 @@
 ---
 layout: article
 title: OpenMined Introduction
-coverPhoto: /assets/posts/2017-10-02/openmined-logo.png
+coverPhoto: /assets/posts/2017-10-01/openmined-logo.png
 ---
 
 OpenMined is an open-sourced project for distributing machine learning model training and democratizing access to data. The future of capital markets is largely going to be built on Machine Learning and AI. A well trained machine learning model requires data. Access to data is controlled by a couple of large corporations, governments and a few powerful smaller independent entities.
@@ -14,7 +14,7 @@ Projects like OpenMind are paving the way to democratized access to data resourc
 
 Homomorphic Encryption works by encrypting values. The encryption algorithm does this in a way that allows the encrypted value to be operated on mathematically. This enables encrypted values to be used in functions while maintaining their state of encryption. A system can perform computations on encrypted data without the operator ever actually knowing what the data is.
 
-![Homomorphic encryption]({{ site.url }}/assets/posts/2017-10-02/homomorphic-encryption.png)
+![Homomorphic encryption]({{ site.url }}/assets/posts/2017-10-01/homomorphic-encryption.png)
 
 Some Homomorphic encryption libraries include:
 * C++
@@ -52,7 +52,7 @@ Now one downside is AI Inc. can learn something about data from gradients or con
 
 One solution is Homorphic encryption can be used to encrypt model and gradients so People can keep data secret, model is protected from theft and a uniquely trained model can be profitable business IP. This is because there is no chance of someone else using it to undercut AI inc's price.
 
-![Overview]({{ site.url }}/assets/posts/2017-10-02/ai-inc.png)
+![Overview]({{ site.url }}/assets/posts/2017-10-01/ai-inc.png)
 
 Some problems with this are, AI Inc can use the encrypted model to basically steal the dataset. This is possible when Joe, Jack or Jane can't see the model since it is encrypted and they can't see what is going on under the hood. There is also the issue of blind marketplace (no one knows what the model is worth).
 
