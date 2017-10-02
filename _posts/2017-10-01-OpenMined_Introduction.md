@@ -17,14 +17,17 @@ Homomorphic Encryption works by encrypting values. The encryption algorithm does
 ![Homomorphic encryption]({{ site.url }}/assets/posts/2017-10-01/homomorphic-encryption.png)
 
 Some Homomorphic encryption libraries include:
-    - C++
-        - http://sealcrypto.codeplex.com/
-        - https://github.com/shaih/HElib
-        - https://github.com/tlepoint/homomorphic-simon
-    - Python -
-        - https://github.com/n1analytics/python-paillier
-    - R -
-        - http://www.louisaslett.com/HomomorphicEncryption/
+
+- C++
+    - [sealcrypto](http://sealcrypto.codeplex.com/)
+    - [HElib](https://github.com/shaih/HElib)
+    - [homomorphic-simon](https://github.com/tlepoint/homomorphic-simon)
+
+- Python -
+    - [python-paillier](https://github.com/n1analytics/python-paillier)
+
+- R -
+    - [HomomorphicEncryption](http://www.louisaslett.com/HomomorphicEncryption/)
 
 A smart contract is a dataset stored on a blockchain. This Contains 3 things. Data (ledgers, events, statistics), state (today's data, today's events), code (rules for changing state). Code establishes rules for updating the state. Some properties of a smart contract are as follows:
 
