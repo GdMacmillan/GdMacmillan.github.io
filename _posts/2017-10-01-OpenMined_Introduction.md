@@ -6,7 +6,10 @@ coverPhoto: /assets/posts/2017-10-01/openmined-logo.png
 
 OpenMined is an open-sourced project for distributing machine learning model training and democratizing access to data. The future of capital markets is largely going to be built on Machine Learning and AI. A well trained machine learning model requires data. Access to data is controlled by a couple of large corporations, governments and a few powerful smaller independent entities.
 
-There are three necessary ingredients for AI/ML: 1. data 2. compute power 3. talent.
+There are three necessary ingredients for AI/ML:
+1. data
+2. compute power
+3. talent
 
 Most of the research in is already publicly available. Open-sourced libraries, research papers and online learning make learning and teaching ML/AI accessible to most people. Compute power is increasing at an exponential rate (as long as Moore's law is still in effect). But less available and properly in need of solutions is access to data stores. Here-in lies the problem.
 
@@ -44,10 +47,10 @@ A hash is a seemingly random cryptographic representation of data. Can only go f
 
 When state and code data is stored on the blockchain, you have a unified dataset that everyone can see. The dataset is able to manipulate itself. The code can execute on state and because the code is deterministic, everyone can agree on what the dataset was and everyone can see what the dataset should now be given the updated state. Now there is a shared computation history that lives in the cloud and no one can corrupt. In this way programs can run on there own and can't be manipulated. This pre-agreed upon code is executed on the blockchain in a way that is enforced by consensus.
 
-An appropriate business model can be thought of as follows:
-    Step 1: Acquire data about people
-    Step 2: Train a model which does something useful
-    Step 3: Sell the use of that model (the app)
+An appropriate business model can be conceived as follows:
+1. Acquire data about people
+2. Train a model which does something useful
+3. Sell the use of that model (the app)
 
 Lets' observed some business which we shall call AI Inc. This company Can send a model down to Joe, Jane or Jack (individuals) for training. Individual data owners know the model is learning from their data, and gradients are being generated in batches. Gradients are then sent back to AI Inc. and slightly improve the model.
 

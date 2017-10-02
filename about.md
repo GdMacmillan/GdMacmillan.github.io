@@ -1,7 +1,5 @@
 ---
-layout: article
-title: About
-permalink: /about/
+layout: default
 ---
 
 I have an extensive statistical learning and data processing toolset to use on all kinds of projects. My experience with the Galvanize Data Science Immersive, combined with formal training and 8+ years of experience in mechanical engineering provide me with the skills for architecting a wide range of solutions in a modular way.
