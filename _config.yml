@@ -24,8 +24,8 @@ permalink: /:categories/:year/:month/:day/:title
 baseurl: https://gdmacmillan.github.io
 
 # Includes
-addthisId: ""
-disqusUsername: ""
+addthisId: "ra-59d2a88e90974725"
+disqusUsername: "gdmacmillan"
 googleAnalyticsId: "UA-107414177-1"
 
 # Search engine verifications
