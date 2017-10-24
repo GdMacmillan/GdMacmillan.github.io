@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # About Gordon MacMillan
 <br>
 <br>
@@ -20,53 +21,61 @@ Prior work experience consists of machine design and engineering of automated eq
 <br>
 <br>
 + Operating Systems
-  - MacOS
-  - Windows
-  - Linux
+    - MacOS
+    - Windows
+    - Linux
+<br>
 <br>
 + Programming Languages
-  - Python (2.7 & 3.6)
-  - Matlab
+    - Python (2.7 & 3.6)
+    - Matlab
+<br>
 <br>
 + Database
-  - PostgreSQL
-  - SQLite
-  - MongoDB
-  - Hive
+    - PostgreSQL
+    - SQLite
+    - MongoDB
+    - Hive
+<br>
 <br>
 + Statistics & Data Mining Frameworks
-  - NumPy
-  - scikit-learn
-  - SciPy
+    - NumPy
+    - scikit-learn
+    - SciPy
+<br>
 <br>
 + Web Frameworks
-  - Flask
-  - Django
-  - Jekyll
+    - Flask
+    - Django
+    - Jekyll
+<br>
 <br>
 + Machine Learning Frameworks
-  - TensorFlow
-  - PyTorch
+    - TensorFlow
+    - PyTorch
+<br>
 <br>
 + Probabilistic Programming Frameworks
-  - PyMC3
+    - PyMC3
+<br>
 <br>
 + AWS
-  - EC2
-  - EMR
-  - S3
-  - AMI
-  - VPC
-  - Elastic Beanstalk
-  - Boto3
+    - EC2
+    - EMR
+    - S3
+    - AMI
+    - VPC
+    - Elastic Beanstalk
+    - Boto3
+<br>
 <br>
 + Random Experience
-  - Docker
-  - Elastic stack (ELK)
-  - Beautiful Soup/Selenium
-  - SQLAlchemy
-  - Anaconda
-  - Homebrew
-  - Pip
-  - Jupyter
-  - Git
+    - Docker
+    - Elastic stack (ELK)
+    - Beautiful Soup/Selenium
+    - SQLAlchemy
+    - Anaconda
+    - Homebrew
+    - Pip
+    - Jupyter
+    - Git
