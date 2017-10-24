@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# About Gordon MacMillan
+# About Me
 <br>
 <br>
 I am a machine learning engineer and data scientist with prior work experience in mechanical engineering. As an engineer I began to gain interest in the field of deep learning and statistical science in 2016. I have always hoped to learn programming in more depth than I did when I was in college at the University of Colorado Boulder. The Galvanize data science immersive program presented an opportunity to extend my programming knowledge and gain experience in computer science and statistics.
