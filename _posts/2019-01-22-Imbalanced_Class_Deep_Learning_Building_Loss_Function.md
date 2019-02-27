@@ -569,8 +569,9 @@ preds = torch.Tensor(preds)
 
 Identify positive examples which are associated with a minority class.
 
+<div>
 $x_{i,j} | a_{i,j} = c$
-
+</div>
 
 ```python
 y_min = labels[:, min_cls_labels]
@@ -603,7 +604,10 @@ P = torch.nonzero(msk); P # anchor instances
 
 Identify negative examples which are associated with a minority class.
 
+
+<div>
 $x_{i,j} | a_{i,j} \neq c$
+</div>
 
 
 ```python
@@ -655,7 +659,7 @@ preds_N[np.argsort(preds_N)][-k:]
 
 ### Incremental Batch-Wise Minority Class Example Mining
 
-Now that we know how to break down the batch into minority classes sorted on predicted probabilities, we can think about how to select hard examples. Specifically, at training time, for a minority class c of attribute label j (or a minority class instance $x_{i,j}$ ) in each training batch data, we select κ hard-positives as the bottom-κ scored on c (or bottom-κ (largest) distances to $x_{i,j}$ ), and κ hard-negatives as the top-κ scored on c (or top-κ (smallest) distance to $x_{i,j}$ ), given the current model (or feature space)
+Now that we know how to break down the batch into minority classes sorted on predicted probabilities, we can think about how to select hard examples. Specifically, at training time, for a minority class c of attribute label j (or a minority class instance <span>$x_{i,j}$</span> ) in each training batch data, we select κ hard-positives as the bottom-κ scored on c (or bottom-κ (largest) distances to <span>$x_{i,j}$</span> ), and κ hard-negatives as the top-κ scored on c (or top-κ (smallest) distance to <span>$x_{i,j}$</span> ), given the current model (or feature space)
 
 OK, lets put it all together. Given a tensor of y_predictions for minority labels...
 
@@ -675,7 +679,7 @@ preds_min[:5] # head
 
 
 
-We form at most $κ^2$ triplets $T = \{(x_{a,j}, x_{+,j}, x_{-,j})_s\}_{s=1}^{\kappa^2}$ with respect to $x_{a, j}$, and a total of at most $\left|X_{min}\right| × κ^2$ triplets $T$ for all anchors $X_{min}$ across all the minority classes of every attribute label. The meshgrid function is used to create row-wise combinations of indexes/probabilities.
+We form at most <span>$κ^2$</span> triplets <span>$T = \{(x_{a,j}, x_{+,j}, x_{-,j})_s\}_{s=1}^{\kappa^2}$</span> with respect to <span>$x_{a, j}$</span>, and a total of at most <span>$\left|X_{min}\right| × κ^2$</span> triplets <span>$T$</span> for all anchors <span>$X_{min}$</span> across all the minority classes of every attribute label. The meshgrid function is used to create row-wise combinations of indexes/probabilities.
 
 
 ```python
