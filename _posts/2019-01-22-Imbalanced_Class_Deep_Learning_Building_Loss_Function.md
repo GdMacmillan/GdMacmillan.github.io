@@ -679,7 +679,13 @@ preds_min[:5] # head
 
 
 
-We form at most <span>$κ^2$</span> triplets <span>$T = \{(x_{a,j}, x_{+,j}, x_{-,j})_s\}_{s=1}^{\kappa^2}$</span> with respect to <span>$x_{a, j}$</span>, and a total of at most <span>$\left|X_{min}\right| × κ^2$</span> triplets <span>$T$</span> for all anchors <span>$X_{min}$</span> across all the minority classes of every attribute label. The meshgrid function is used to create row-wise combinations of indexes/probabilities.
+We form at most <span>$κ^2$</span> triplets
+
+<div>
+$T = \{(x_{a,j}, x_{+,j}, x_{-,j})_s\}_{s=1}^{\kappa^2}$
+</div>
+
+ with respect to <span>$x_{a, j}$</span>, and a total of at most <span>$\left|X_{min}\right| × κ^2$</span> triplets <span>$T$</span> for all anchors <span>$X_{min}$</span> across all the minority classes of every attribute label. The meshgrid function is used to create row-wise combinations of indexes/probabilities.
 
 
 ```python
