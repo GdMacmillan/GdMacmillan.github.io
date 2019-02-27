@@ -41,7 +41,7 @@ Cross-Entropy loss function is commonly used for learning a multi-class classifi
 \end{equation*}
 </div>
 
-$\textbf{x}_{i,j}$ denotes the feature vector of $\textbf{I}_{i}$ for the jth attribute label and $p(y_{i,j} = a_{i,j}|\textbf{x}_{i,j}$) is the corresponding posterior probability of $\textbf{I}_{i}$ over the ground truth $a_{i, j}$
+<span>$\textbf{x}_{i,j}$</span> denotes the feature vector of <span>$\textbf{I}_{i}$</span> for the jth attribute label and <span>$p(y_{i,j} = a_{i,j}|\textbf{x}_{i,j}$)</span> is the corresponding posterior probability of <span>$\textbf{I}_{i}$</span> over the ground truth <span>$a_{i, j}$</span>
 
 The cross-entropy loss function is conditioning model learning to minimize training error by assuming that individual samples and classes are of equal importance. In order to achieve good performance and generalization, networks trained with CE need to have large training sets with sufficiently balanced class distributions.
 
