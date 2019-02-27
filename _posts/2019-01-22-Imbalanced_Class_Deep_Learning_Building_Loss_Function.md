@@ -999,7 +999,3 @@ In this article we have seen how to construct a novel loss function for end to e
 Many Thanks to the authors of the paper, Imbalanced Deep Learning by Minority Class Incremental Rectification-
 
 Qi Dong, Shaogang Gong, and Xiatian Zhu
-
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_CHTML">
-</script>
