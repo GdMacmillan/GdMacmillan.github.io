@@ -35,9 +35,11 @@ i.e., each instance can have multiple labels instead of a single one!
 
 Cross-Entropy loss function is commonly used for learning a multi-class classification CNN model where overall loss on a mini-batch of n images is taken as the average additive sum of attribute-level loss with equal weight applied over all labels.
 
+{% raw %}
 \begin{equation*}
 \mathcal{L}_{ce} = -\frac{1}{n_{bs}} \sum^{n_{bs}}_{i=1}\sum^{n_{attr}}_{j=1}log\left(p(y_{i,j} = a_{i,j} | \textbf{x}_{i,j})\right)
 \end{equation*}
+{% endraw %}
 
 $\textbf{x}_{i,j}$ denotes the feature vector of $\textbf{I}_{i}$ for the jth attribute label and $p(y_{i,j} = a_{i,j}|\textbf{x}_{i,j}$) is the corresponding posterior probability of $\textbf{I}_{i}$ over the ground truth $a_{i, j}$
 
