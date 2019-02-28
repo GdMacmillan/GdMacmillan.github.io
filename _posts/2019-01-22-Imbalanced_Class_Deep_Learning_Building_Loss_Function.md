@@ -15,7 +15,7 @@ Handling imbalanced class data is a common problem in deep learning. If we assum
 Disclaimer:
 1. I am not the author of the published work which outlines this approach to this classification loss function. The real paper is published here:
 
-__[Imbalanced Deep Learning by Minority Class Incremental Rectification, Qi Dong, et all](https://arxiv.org/abs/1804.10851)__
+    __[Imbalanced Deep Learning by Minority Class Incremental Rectification, Qi Dong, et all](https://arxiv.org/abs/1804.10851)__
 
 2. I intend no disrespect to the authors of this approach
 3. I worked to develop my own code for this loss function in an attempt to find a favorable outcome in an image classification challenge.
