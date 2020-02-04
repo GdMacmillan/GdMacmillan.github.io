@@ -14,7 +14,7 @@ I happened to be browsing the Julia community discourse forums and came across t
 
 [flux-jl-vanilla-ann-loss-goes-to-nan-with-mini-batch](https://discourse.julialang.org/t/flux-jl-vanilla-ann-loss-goes-to-nan-with-mini-batch/25511)
 
-After seeing this, I wanted to build a small training workflow around a relatively easy example in order to show the core components you can build with Flux. With this in mind, I set out to try and repeat some work I [had seen](https://discourse.julialang.org/t/julia-on-google-colab-free-gpu-accelerated-shareable-notebooks/15319) where some enterprising soul had set out to re-create a Julia kernel using the popular Google Colaboratory free Jupyter notebook environment. I also wanted to test Julia and ML Flux on a GPU to see if I could write a basic ad-hoc training workflow.
+After seeing this, I wanted to build a small relatively easy example in order to show the core components you can build with Flux. With this in mind, I set out to try and repeat some work I [had seen](https://discourse.julialang.org/t/julia-on-google-colab-free-gpu-accelerated-shareable-notebooks/15319) where some enterprising soul had set out to re-create a Julia kernel using the popular Google Colaboratory free Jupyter notebook environment. I also wanted to test Julia and ML Flux on a GPU to see if I could write a basic ad-hoc training workflow.
 
 ## Julia Programming Language
 
@@ -22,9 +22,13 @@ After seeing this, I wanted to build a small training workflow around a relative
 
 One of the goals of the Julia development community is to provide a flexible language that eliminates the need for separating prototyping and deployment environments. The Julia programming language fulfills this requirement by allowing developers to work on scientific and numerical computing and then deploy code which runs nearly as fast as traditional statically-typed languages.
 
+## Flux
+
+[Flux](https://fluxml.ai/Flux.jl/stable/) comes prebuilt with a variety of tools needed to build machine learning workflows. Install by typing `] add Flux` in your Julia based IDE. If you have CUDA, you can also run `] add CuArrays` to get GPU support. The notebook built for this explainer uses several other packages as well as Flux but the core methods are created using Flux and CuArrays. If you want to build deep learning models for your project, Flux is a good library to start with.
+
 ## Google Colab
 
-What is [Colab](https://colab.research.google.com)? I will let the official platform documentation do the explaining. As far as what Data Scientists like to use it for? Well, it arguably provides the best platform on the web for students, engineers and otherwise curious individuals to play around with some seriously great hardware. Documents (Ipython notebooks) can be read or created and stored/executed with just a Google account. There are Python helpers built by Google to help with connecting with data stored in either Drive or Gcloud. The most popular Python modules come pre-installed in an Anaconda environment and there is even access to bash so you can access the filesystem for more control over your environment. This is how we are able to install Julia and packages required to do deep learning.
+What is [Colab](https://colab.research.google.com)? I will let the official platform documentation do the explaining. As far as what Data Scientists like to use it for? Well, it arguably provides the best platform on the web for students, engineers and otherwise curious individuals to play around with some seriously great hardware. Documents (Ipython notebooks) can be read or created and stored/executed with just a Google account. There are [Python helpers built by Google](https://colab.research.google.com/notebooks/io.ipynb) to help with connecting to data stored in either Drive or Gcloud. The most popular Python modules come pre-installed in an Anaconda environment and there is even access to bash so you can access the filesystem for more control over your environment. This is how we are able to install Julia and packages required to do deep learning.
 
 ## What is Deep Learning?
 
