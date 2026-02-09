@@ -11,13 +11,13 @@
 			{% if paginator.previous_page == 1 %}
 
 				<!-- Giving the button base url link -->
-				<a href="{{ site.baseurl }}">{% if site.lang == "tr" %}Yeni Yazılar{% else %}Newer Posts{% endif %}</a>
+				<a href="{{ site.baseurl }}">Newer Posts</a>
 
 			<!-- If previous page is not 1 -->
 			{% else %}
 
 				<!-- Giving the button pagination link -->
-				<a href="{{ site.baseurl }}/{{ site.paginateLabel }}/{{ paginator.previous_page }}">{% if site.lang == "tr" %}Yeni Yazılar{% else %}Newer Posts{% endif %}</a>
+				<a href="{{ site.baseurl }}/{{ site.paginateLabel }}/{{ paginator.previous_page }}">Newer Posts</a>
 
 			{% endif %}
 
@@ -35,12 +35,8 @@
 	<div class="column column2">
 
 		<!-- Page number -->
-		<span> 
-			{% if site.lang == "tr" %}
-				Sayfa {{ paginator.page }}/{{ paginator.total_pages }}
-			{% else %}
-				Page {{ paginator.page }} of {{ paginator.total_pages }}
-			{% endif %} 
+		<span>
+			Page {{ paginator.page }} of {{ paginator.total_pages }}
 		</span>
 
 	</div><!-- .column2 -->
@@ -52,7 +48,7 @@
 		{% if paginator.next_page %}
 
 			<!-- Giving the button pagination link -->
-			<a href="{{ site.baseurl }}/{{ site.paginateLabel }}/{{ paginator.next_page }}">{% if site.lang == "tr" %}Eski Yazılar{% else %}Older Posts{% endif %}</a>
+			<a href="{{ site.baseurl }}/{{ site.paginateLabel }}/{{ paginator.next_page }}">Older Posts</a>
 
 		{% endif %}
 

@@ -5,6 +5,8 @@ email: gmacilla@ymail.com
 author: Gordon MacMillan
 lang: English
 locale: Denver, CO
+url: https://gdmacmillan.github.io
+baseurl: ""
 
 # Jekyll
 paginate: 10
@@ -13,25 +15,16 @@ highlighter: rouge
 kramdown:
   input: GFM
 
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 timezone: America/Denver
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
-# baseurl: /
-# baseurl: http://localhost:4000/
-baseurl: https://gdmacmillan.github.io
-
-# Includes
-addthisId: "ra-59d2a88e90974725"
-disqusUsername: "gdmacmillan"
-googleAnalyticsId: "UA-107414177-1"
-
-# Search engine verifications
-bing: ""
-yandex: ""
-google: ""
 
 #Sitemap
 sitemap:
