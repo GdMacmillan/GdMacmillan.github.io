@@ -40,7 +40,7 @@ Cross-Entropy loss function is commonly used for learning a multi-class classifi
 \end{equation*}
 </div>
 
-<span>$\textbf{x}_{i,j}$</span> denotes the feature vector of <span>$\textbf{I}_{i}$</span> for the jth attribute label and <span>$p(y_{i,j} = a_{i,j}|\textbf{x}_{i,j}$)</span> is the corresponding posterior probability of <span>$\textbf{I}_{i}$</span> over the ground truth <span>$a_{i, j}$</span>
+<p>$\textbf{x}_{i,j}$ denotes the feature vector of $\textbf{I}_{i}$ for the jth attribute label and $p(y_{i,j} = a_{i,j}|\textbf{x}_{i,j})$ is the corresponding posterior probability of $\textbf{I}_{i}$ over the ground truth $a_{i, j}$</p>
 
 The cross-entropy loss function is conditioning model learning to minimize training error by assuming that individual samples and classes are of equal importance. In order to achieve good performance and generalization, networks trained with CE need to have large training sets with sufficiently balanced class distributions.
 
@@ -549,13 +549,17 @@ Note: possible difference in class indices. Since sort is random in its ordering
 
 Given the minortiy classes, let us find the hardness metric for sampling instances which encourage model learning to concentrate on weak recognitions or obvious mistakes. Explicitly, at the class level, we quantify sample hardness regarding a given class per label by saying for each minority class c of the attribute label j, we refer to "hard-positives" as follows:
 
+<div>
 \begin{align}
 P_{c,j}^{cls} = \{x_{i,j} | a_{i,j} = c\text{, low } p(y_{i,j} = c | x_{i,j})\}
 \end{align}
+</div>
 
+<div>
 \begin{align}
 N_{c,j}^{cls} = \{x_{i,j} | a_{i,j} \neq c\text{, low } p(y_{i,j} = c | x_{i,j})\}
 \end{align}
+</div>
 
 Create some random predictions in the range [0-1]:
 
