@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}{% if title %} — {% endif %}{{ metadata.title }}</title>
+  <meta name="description" content="{{ description or metadata.description }}">
+
+  <meta property="og:title" content="{{ title or metadata.title }}">
+  <meta property="og:description" content="{{ description or metadata.description }}">
+  <meta property="og:type" content="{% if layout == 'layouts/post.njk' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ metadata.url }}{{ coverPhoto or '/assets/img/Artificial-Intelligence.jpg' }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="{{ metadata.title }}" href="/feed.xml">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+        integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXth7e0WBY2EYpL/eTJGnp6RDQO7ss+IhPJkNxM4bg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.7/tex-chtml.js"
+          integrity="sha256-gMJETfFJBsOqatMHFnWCrOHJ90JhrOnnBpMYU9MPFY0="
+          crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="/" class="site-name">{{ metadata.title }}</a>
+      <div class="nav-links">
+        <a href="/about/">About</a>
+        <a href="mailto:{{ metadata.author.email }}">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ metadata.title }} &middot; Built with <a href="https://www.11ty.dev">Eleventy</a></p>
+    </div>
+  </footer>
+</body>
+</html>
