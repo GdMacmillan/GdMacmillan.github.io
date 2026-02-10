@@ -34,7 +34,8 @@
       <a href="/" class="site-name">{{ metadata.title }}</a>
       <div class="nav-links">
         <a href="/about/">About</a>
-        <a href="mailto:{{ metadata.author.email }}">Contact</a>
+        <a href="{{ metadata.author.github }}">GitHub</a>
+        <a href="{{ metadata.author.linkedin }}">LinkedIn</a>
       </div>
     </nav>
   </header>
@@ -45,7 +46,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; {{ metadata.title }} &middot; Built with <a href="https://www.11ty.dev">Eleventy</a></p>
+      <p>&copy; {{ metadata.title }} &middot; <a href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a> &middot; Built with <a href="https://www.11ty.dev">Eleventy</a></p>
     </div>
   </footer>
 </body>
