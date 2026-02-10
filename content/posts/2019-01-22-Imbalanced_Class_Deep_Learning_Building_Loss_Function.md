@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Imbalanced Class Deep Learning - Building A Loss Function
 coverPhoto: /assets/posts/2019-01-22/pytorchlossfunction-logo.png
 ---
@@ -26,7 +25,7 @@ CNN's take inputs as two-dimensional images and predict labels based on convolut
 
 For single-label classification we ask a simple question:
 
-![car]({{ site.url }}/assets/posts/2019-01-22/streetview.jpg)
+![car](/assets/posts/2019-01-22/streetview.jpg)
 
 i.e. Is this a picture of a car? ∈ {yes, no}
 
@@ -388,7 +387,7 @@ ncl = 28 # num classes
 
 This method of mining hard examples to supplement the baseline CE loss is done by "borrowing" samples from the majority class in regions where class distribution bias is highest. We can visualize this in the following image where border areas with highest density of majority class samples represent the region where hard sample mining is most effective.
 
-<img src="{{ site.url }}/assets/posts/2019-01-22/class_decision_boundary.png" width="400">
+<img src="/assets/posts/2019-01-22/class_decision_boundary.png" width="400">
 
 For hard sample mining, we first profile the minority and majority classes per label in each training mini-batch with n training samples. We profile the class distribution hj
 

@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Basic Image Classification with Julia on Google Colab
 coverPhoto: /assets/posts/2020-02-04/flux_julia_colab_logo.png
 ---
@@ -34,11 +33,11 @@ What is [Colab](https://colab.research.google.com)? I will let the official plat
 
 You may, as I was several years ago, be wondering what is Deep Learning and how could I possibly understand it. The first example of an artificial neural network is thought to have been created by Frank Rosenblatt with the multi-layered perceptron in 1957.
 
-![Multilayer perceptron]({{ site.url }}/assets/posts/2020-02-04/multilayer_perceptron.png)
+![Multilayer perceptron](/assets/posts/2020-02-04/multilayer_perceptron.png)
 
 This form of deep learning was heralded as a turning point in history, from which we would be creating machines that could walk, talk, think and reason about things just as humans do. That could still end up being true, but as of now, modern learning systems must be highly specialized. To perform well, a learning system can not be fed an input which deviates from the expected data type. In the simple case, this means an image classifier must be fed images, an audio classifier, audio, etc... There are various methods which use a backbone neural net to convert data from one form to another, but in each case, we may have a set of inputs X that maps to an output set y.
 
-![Feature mapping]({{ site.url }}/assets/posts/2020-02-04/feature_mapping.png)
+![Feature mapping](/assets/posts/2020-02-04/feature_mapping.png)
 
 ### Artificial Neural Netork (NN)
 

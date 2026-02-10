@@ -1,5 +1,4 @@
 ---
-layout: article
 title: OpenMined Introduction
 coverPhoto: /assets/posts/2017-10-01/openmined-logo.png
 ---
@@ -21,7 +20,7 @@ OpenMined is built to use blockchain technology, smart contracts and homomorphic
 
 Homomorphic encryption is the process of encrypting values or data. The encryption algorithm does this in a way that allows the encrypted value to be operated on mathematically. This enables encrypted values to be used in functions while maintaining their state of encryption. A system can perform computations on encrypted data without the operator ever actually knowing what the data is. In the diagram below, we can see that you can pass encrypted values into a function or even add 2 encrypted values together without the need to decrypt them first.
 
-![Homomorphic encryption]({{ site.url }}/assets/posts/2017-10-01/homomorphic-encryption.png)
+![Homomorphic encryption](/assets/posts/2017-10-01/homomorphic-encryption.png)
 
 Some Homomorphic encryption libraries include:
 
@@ -64,7 +63,7 @@ A concern is that AI Inc. can learn something about data from gradients, or Joe,
 
 One solution to this is encryption. Homomorphic encryption can be used to encrypt model and gradients so people can keep data secret but gradients can still be learned. The model is protected from theft and a uniquely trained model can be profitable business IP.
 
-![Overview]({{ site.url }}/assets/posts/2017-10-01/ai-inc.png)
+![Overview](/assets/posts/2017-10-01/ai-inc.png)
 
 An issue can still be seen where sophisticated backwards calculation can be used to recreate the dataset. AI inc. could write this into their model and it is possible that Joe, Jack or Jane would not be able to see this since the model is encrypted.
 

@@ -1,10 +1,7 @@
 ---
-layout: article
 title: NLP and Information Retrieval with Julia
 coverPhoto: /assets/posts/2019-08-05/text_classification_workflow.png
 ---
-
-<!-- <p><img src="{{ site.baseurl }}/assets/posts/2019-08-05/text_classification_workflow.png" alt="pipes" /></p> -->
 
 ## Purpose
 
