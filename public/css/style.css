@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 /* === BASE === */
 html {
   color-scheme: light dark;
+  interpolate-size: allow-keywords;
 }
 
 body {
