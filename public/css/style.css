@@ -137,6 +137,14 @@ a:hover {
   font-size: 0.875rem;
 }
 
+/* === COVER PHOTO === */
+.cover-photo {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* === POST LIST (HOME) === */
 .post-list {
   display: flex;
