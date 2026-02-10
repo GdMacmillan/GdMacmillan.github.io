@@ -1,0 +1,9 @@
+---
+layout: layouts/home.njk
+pagination:
+  data: collections.posts
+  size: 10
+  reverse: true
+permalink:
+  build: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}/{% else %}/{% endif %}"
+---
