@@ -16,13 +16,14 @@ export default function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy({ "public": "/" });
 
   eleventyConfig.addFilter("readableDate", (date) => {
     return new Date(date).toLocaleDateString("en-US", {
       year: "numeric",
       month: "long",
-      day: "numeric"
+      day: "numeric",
+      timeZone: "UTC"
     });
   });
 
